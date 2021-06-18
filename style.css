@@ -20,7 +20,7 @@ img{
 
 .wrapper{
   display: flex;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
   background-color: #fff;
   padding: 10px;
