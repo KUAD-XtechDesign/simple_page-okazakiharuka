@@ -73,8 +73,9 @@ div.year{
 /* ごはん */
 .gohan {
   color: #000;
+  text-decoration: none;
 }
 
 .gohan:hover {
-  color: #999;
+  color: rgb(184, 184, 184);
 }
