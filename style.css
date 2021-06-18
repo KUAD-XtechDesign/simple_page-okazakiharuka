@@ -69,3 +69,12 @@ ul.history_list li div.txt{
 div.year{
   width: 5em;
 }
+
+/* ごはん */
+.gohan {
+  color: #000;
+}
+
+.gohan:hover {
+  color: #999;
+}
