@@ -19,7 +19,8 @@ img{
 }
 
 .wrapper{
-  max-width: 600px;
+  display: flex;
+  /* max-width: 600px; */
   margin: 0 auto;
   background-color: #fff;
   padding: 10px;
@@ -27,9 +28,9 @@ img{
   box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
 }
 
-#namecard{
+/* #namecard{
   text-align: center;
-}
+} */
 
 
 /* 名前 */
@@ -38,6 +39,7 @@ h1.name{
   font-size: 20px;
   padding-left: 10px;
   margin-bottom: 10px;
+  color: #0bd;
 }
 
 /* 経歴部分 */
@@ -49,6 +51,7 @@ h2.title{
 
 .profile{
   padding: 10px;
+  margin-left: 20px;
 }
 
 ul.history_list li{
@@ -67,3 +70,12 @@ div.year{
   width: 5em;
 }
 
+/* ごはん */
+.gohan {
+  color: #000;
+  text-decoration: none;
+}
+
+.gohan:hover {
+  color: rgb(184, 184, 184);
+}
